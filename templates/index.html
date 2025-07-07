@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nethra's Server Info</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container py-5">
+    <div class="card shadow p-4">
+      <h1 class="mb-4 text-primary">Hello! This is Nethra's first web app 🚀</h1>
+      <p><strong>Server status:</strong> Running fine ✅</p>
+      <p><strong>Server name:</strong> {{ server_name }}</p>
+      <p><strong>OS:</strong> {{ os_name }}</p>
+      <p><strong>Uptime:</strong> {{ uptime }}</p>
+      <hr>
+      <p><strong>CPU Usage:</strong> {{ cpu_percent }}%</p>
+      <p><strong>RAM Usage:</strong> {{ ram_percent }}%</p>
+      <p><strong>Disk Usage:</strong> {{ disk_percent }}%</p>
+    </div>
+  </div>
+
+</body>
+</html>
